@@ -25,7 +25,8 @@ export default {
         'boxShadow': '0 2px 4px rgba(0, 0, 0, 0.3)',
         'transform': 'translate3d(0, 0, 0)',
         'transition': 'transform 500ms cubic-bezier(0, 0, 0.25, 1), opacity 500ms cubic-bezier(0, 0, 0.25, 1)',
-        'zIndex': 10001
+        'zIndex': 10001,
+        'overflow': 'scroll'
     },
     'panelHidden': {
         'transform': 'translate3d(0, 100px, 0)',
@@ -33,6 +34,6 @@ export default {
         'zIndex': -1,
         'height': 0,
         'width': 0,
-        'overflow': 'hidden'
+        'overflow-x': 'hidden'
     }
 };
