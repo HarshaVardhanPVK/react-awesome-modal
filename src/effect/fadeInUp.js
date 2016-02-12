@@ -34,6 +34,6 @@ export default {
         'zIndex': -1,
         'height': 0,
         'width': 0,
-        'overflow-x': 'hidden'
+        'overflow': 'hidden'
     }
 };
